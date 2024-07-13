@@ -17,7 +17,7 @@ export default function Main(props) {
       setAllMems(Data.data.memes)
     }
     getMemes()
-    // memeDataHandler()
+
   }, [])
 
   function memeDataHandler(event) {
@@ -43,7 +43,7 @@ export default function Main(props) {
     <main className="main">
       <input type="text" placeholder="Shout Up" className="in1 inputs" name="topText" value={mem.topText} onChange={submitinputsHandler} />
       <input type="text" placeholder="take mem" className="in2 inputs" name="bottomText" value={mem.bottomText} onChange={submitinputsHandler} />
-      <button onClick={memeDataHandler}>Click For More Memes</button>
+      <button onClick={memeDataHandler}>Click For Memes</button>
       <div className="imgDiv">
         <img src={mem.randomImage} className="imgMain" alt="my image" />
         <h1 className="hJoke">{mem.topText}</h1>

@@ -44,16 +44,13 @@ margin-top: 10px;
 .hJoke{
 position: fixed;
 z-index: 10000;
-top: 320px;
+top: 350px;
 
 }
 .pJoke{
    position: fixed;
 z-index: 10000;
-top: 400px;
-
-
-
+top: 420px;
 
 }.imgDiv{
    width: 30vw;
