@@ -45,12 +45,17 @@ margin-top: 10px;
 position: fixed;
 z-index: 10000;
 top: 350px;
+color: white;
+padding-left: 10px;
+
 
 }
 .pJoke{
-   position: fixed;
+ position: fixed;
 z-index: 10000;
 top: 420px;
+padding-left: 10px;
+color: white;
 
 }.imgDiv{
    width: 30vw;
